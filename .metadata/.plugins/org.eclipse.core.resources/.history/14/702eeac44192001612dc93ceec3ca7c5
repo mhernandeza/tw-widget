@@ -1,0 +1,5 @@
+package org.margarita.widget.model;
+
+public class User {
+
+}

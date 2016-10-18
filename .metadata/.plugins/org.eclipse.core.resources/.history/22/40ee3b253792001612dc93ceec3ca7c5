@@ -1,0 +1,15 @@
+package org.margarita.widget.resources;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("/profile")
+
+public class ProfileResource {
+	
+	@GET
+	public String getTweets(){
+		return "Tweets will be returned from here.";
+	}
+
+}

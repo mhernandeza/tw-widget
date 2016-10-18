@@ -1,0 +1,24 @@
+package org.margarita.widget.resources;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.margarita.widget.service.TweetService;
+
+@Path("profile")
+
+public class ProfileResource {
+
+	TweetService tweetService = new TweetService();
+	
+	@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	public List<Tweet> getProfile(){
+		//TODO - Check addition of user profile as a variable.
+		//Return tweets as JSON object.
+		return tweetService.getTweets("march1307");
+	}
+
+}

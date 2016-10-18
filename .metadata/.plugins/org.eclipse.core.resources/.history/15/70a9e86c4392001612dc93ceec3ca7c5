@@ -1,0 +1,5 @@
+package org.margarita.widget.service;
+
+public class TweetService {
+
+}

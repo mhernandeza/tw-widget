@@ -1,0 +1,16 @@
+package org.margarita.widget.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.margarita.widget.model.Tweet;
+
+public class TweetService {
+
+	public List<Tweet> getTweets(String screen_name){
+		List<Tweet> tweets = new ArrayList<>();	
+		//Add code to interact with API
+		//Mock tweets for now.
+		Tweet tweet1 = new Tweet
+	}
+}

@@ -1,0 +1,11 @@
+package org.margarita.widget.model;
+
+import java.util.List;
+
+public class User {
+	private String name;
+	private String profileImage;
+	private String screenName;
+	private List<Tweet> tweets; 
+
+}
